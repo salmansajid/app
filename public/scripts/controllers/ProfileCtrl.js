@@ -28,7 +28,7 @@ angular.module('ProfileCtrl', []).controller('ProfileController', function ($sco
     });
 
     $timeout(function(){
-        var socket = io.connect('http://localhost:8080');
+        var socket = io.connect('http://62.75.150.140:8080');
 
             // On demande le pseudo, on l'envoie au serveur et on l'affiche dans le titre
             
